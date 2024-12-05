@@ -3,7 +3,19 @@ section:
   id: skills
   enable: true
   weight: 2
+  filter: true
   showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+buttons:
+  - name: All
+    filter: "all"
+  - name: Language
+    filter: "language"
+  - name: Frameworks
+    filter: "framework"
+  - name: Others
+    filter: "others"
 
 skills:
 
