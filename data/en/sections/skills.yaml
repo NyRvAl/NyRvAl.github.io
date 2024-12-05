@@ -1,68 +1,49 @@
-section:
-  name: Skills
-  id: skills
-  enable: true
-  weight: 2
-  filter: true
-  showOnNavbar: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
-buttons:
-- name: All
-  filter: "all"
-- name: Language
-  filter: "language"
-- name: Frameworks
-  filter: "framework"
-- name: Others
-  filter: "others"
-
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
 
-- name: Java
-  logo: /images/sections/skills/java.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://www.docker.com/"
-  categories: ["language"]
-- name: C#
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  logo: /images/sections/skills/csharp.png
-  url: "https://www.docker.com/"
-  categories: ["language"]
-- name: Typescript
-  logo: /images/sections/skills/typescript.svg
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://www.docker.com/"
-  categories: ["language"]
+  - name: Java
+    logo: /images/sections/skills/java.png
+    summary: "Proficient in building robust backend systems using Java, with experience in deploying scalable applications on Kubernetes and creating custom controllers for CRDs."
+    url: "https://www.docker.com/"
+    categories: ["language"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://www.docker.com/"
-  categories: ["others"]
+  - name: C#
+    summary: "Experienced in developing enterprise-level applications using C#, including ASP.NET for web development, and managing containerized deployments on Kubernetes."
+    logo: /images/sections/skills/csharp.png
+    url: "https://www.docker.com/"
+    categories: ["language"]
 
-- name: Spring Boot
-  logo: /images/sections/skills/spring.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://git-scm.com/"
-  categories: ["framework"]
+  - name: Typescript
+    logo: /images/sections/skills/typescript.svg
+    summary: "Skilled in using TypeScript for modern web development, ensuring maintainable and efficient codebases in frameworks like Angular and React."
+    url: "https://www.docker.com/"
+    categories: ["language"]
 
-- name: ASP.NET
-  logo: /images/sections/skills/asp.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://git-scm.com/"
-  categories: ["framework"]
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: "Expert in containerizing applications using Docker, optimizing development workflows, and enabling seamless CI/CD integration."
+    url: "https://www.docker.com/"
+    categories: ["others"]
 
-- name: Unity
-  logo: /images/sections/skills/unity.svg
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://git-scm.com/"
-  categories: ["framework"]
+  - name: Spring Boot
+    logo: /images/sections/skills/spring.png
+    summary: "Specialized in creating microservices with Spring Boot, ensuring modularity, scalability, and integration with tools like Kubernetes."
+    url: "https://git-scm.com/"
+    categories: ["framework"]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://git-scm.com/"
-  categories: ["others"]
+  - name: ASP.NET
+    logo: /images/sections/skills/asp.png
+    summary: "Capable of building dynamic, scalable web applications with ASP.NET, emphasizing performance and security."
+    url: "https://git-scm.com/"
+    categories: ["framework"]
+
+  - name: Unity
+    logo: /images/sections/skills/unity.svg
+    summary: "Proficient in game development using Unity, with experience in creating interactive applications and managing complex game logic."
+    url: "https://git-scm.com/"
+    categories: ["framework"]
+
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: "Adept at version control with Git, ensuring collaborative workflows and maintaining codebase integrity across projects."
+    url: "https://git-scm.com/"
+    categories: ["others"]
